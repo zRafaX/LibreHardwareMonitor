@@ -368,7 +368,6 @@ internal sealed class IntelCpu : GenericCpu
         else
             _coreTemperatures = Array.Empty<Sensor>();
 
-        // check if processor supports a digital thermal sensor at package level
         if (cpuId[0][0].Data.GetLength(0) > 6 && (cpuId[0][0].Data[6, 0] & 0x40) != 0 && _microArchitecture != MicroArchitecture.Unknown)
         {
             _packageTemperature = new Sensor("CPU Package",

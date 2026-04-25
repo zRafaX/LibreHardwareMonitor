@@ -13,7 +13,7 @@
     <PackageProjectUrl>https://github.com/LibreHardwareMonitor/LibreHardwareMonitor</PackageProjectUrl>
     <PackageTags>libre open hardware monitor monitoring system logging cpu gpu</PackageTags>
     <PackageVersion>$(Version)</PackageVersion>
-    <Pack>true</Pack>
+    <Pack>false</Pack>
     <RepositoryUrl>https://github.com/LibreHardwareMonitor/LibreHardwareMonitor</RepositoryUrl>
     <LangVersion>latest</LangVersion>
     <PackageIcon>packageicon.png</PackageIcon>
@@ -53,7 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\packageicon.png" PackagePath="">
-      <Pack>True</Pack>
+      <Pack>False</Pack>
     </None>
   </ItemGroup>
 </Project>
